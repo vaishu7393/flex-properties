@@ -1,0 +1,119 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+	font-family:'Times New Roman', Times, serif;
+}
+h2,h4{
+	text-align:center;
+	padding:10px;
+}
+
+
+.parent{
+	height:30vh;
+	width:80%;
+	margin:auto;
+	background-color:pink;
+}
+.parent1{
+	height:20vh;
+	width:80%;
+	margin:auto;
+	background-color:skyblue;
+}
+.parent2{
+	height:10vh;
+	width:80%;
+	margin:auto;
+	background-color:lightsalmon;
+}
+.a,.b,.c,.d,.e,.f,.g,.h,.i{
+	
+	height:10vh;
+	width:20%;
+	border:1px solid #000;
+	color:black;
+	text-align:center;
+	font-weight:200;
+	font-family:IM Fell DW Pica;	
+}
+.a{
+	background-color:lightpink;
+}
+.b{
+	background-color:lightskyblue;
+}
+.c{
+	background-color:lightgreen;
+}
+.d{
+	background-color:skyblue;
+}
+.e{
+	background-color:aqua;
+}
+.f{
+	background-color:gray;
+}
+.g{
+	background-color:lightblue;
+}
+.h{
+	background-color:lightseagreen;
+}
+.i{
+	background-color:lightslategray;
+}
+.box2{
+	display:flex;
+}
+.box3{
+	display:flex;
+	flex-direction:column;
+}
+.box4{
+	display:flex;
+	flex-direction:row-reverse;
+}
+.box5{
+	display:flex;
+	flex-wrap:nowrap;
+}
+.box6{
+	display:flex;
+	flex-direction:column-reverse;
+}
+.box7{
+	display:flex;
+	flex-wrap:wrap;
+}
+.box8{
+	display:flex;
+	flex-wrap:wrap-reverse;
+}
+
+.box9{
+	display:flex;
+	justify-content:center;
+}
+.box10{
+	display:flex;
+	justify-content:start;
+}
+.box11{
+	display:flex;
+	justify-content:end;
+}
+.box12{
+	display:flex;
+	justify-content:space-between;
+}
+.box13{
+	display:flex;
+	justify-content:space-evenly;
+}
+.box14{
+	display:flex;
+	justify-content:space-around;
+}
